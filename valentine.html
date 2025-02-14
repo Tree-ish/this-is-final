@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forever Valentine ❤️</title>
+    <style>
+        body {
+            background-color: rgb(255, 204, 229);
+            color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            max-width: 600px;
+        }
+
+        .heart {
+            font-size: 5em;
+            animation: heartbeat 1s infinite alternate;
+        }
+
+        @keyframes heartbeat {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yay! You’re stuck with me! ❤️</h1>
+    <p>Congrats 💖</p>
+    <div class="heart">💘</div>
+    <button onclick="window.location.href='page3.html'">Go Back</button>
+</body>
+</html>
